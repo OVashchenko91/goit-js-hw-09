@@ -1,7 +1,5 @@
 
 
-import { Notify } from 'notiflix/build/notiflix-notify-aio';//використовується для відображення сповіщень про успішне та невдале виконання в браузері
-import 'notiflix/dist/notiflix-3.2.5.min.css';
 //визначає елемент форми з назвою класу "form" і вибирає три елементи введення з іменами "delay", "step" і "amount" за допомогою методу querySelector. Ці вхідні елементи використовуються для налаштування промісів, які будуть створені та вирішені або відхилені.
 const form = document.querySelector('.form');
 

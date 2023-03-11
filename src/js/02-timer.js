@@ -1,7 +1,6 @@
 import flatpickr from 'flatpickr'; //створення поля введення дати й часу, за допомогою якого користувач може вибрати майбутню дату й час
 import 'flatpickr/dist/flatpickr.min.css';
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
-require('flatpickr/dist/themes/light.css');
+
 
 let userDate = null;
 let timerInterval = null;
