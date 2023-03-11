@@ -1,5 +1,14 @@
 
-import Notiflix from 'notiflix';//використовується для відображення сповіщень про успішне та невдале виконання в браузері
+//використовується для відображення сповіщень про успішне та невдале виконання в браузері
+// all modules
+import Notiflix from 'notiflix';
+
+// one by one
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Report } from 'notiflix/build/notiflix-report-aio';
+import { Confirm } from 'notiflix/build/notiflix-confirm-aio';
+import { Loading } from 'notiflix/build/notiflix-loading-aio';
+import { Block } from 'notiflix/build/notiflix-block-aio';
 
 //визначає елемент форми з назвою класу "form" і вибирає три елементи введення з іменами "delay", "step" і "amount" за допомогою методу querySelector. Ці вхідні елементи використовуються для налаштування промісів, які будуть створені та вирішені або відхилені.
 const form = document.querySelector('.form');
