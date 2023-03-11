@@ -1,6 +1,6 @@
 import flatpickr from 'flatpickr'; //створення поля введення дати й часу, за допомогою якого користувач може вибрати майбутню дату й час
 import 'flatpickr/dist/flatpickr.min.css';
-
+import Notiflix from 'notiflix';
 
 let userDate = null;
 let timerInterval = null;
